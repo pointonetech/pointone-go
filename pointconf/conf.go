@@ -17,6 +17,7 @@ type LoggerConfig struct {
 	MaxBackups int    `yaml:"max_backups"` //max file numbers
 	LocalTime  bool   `yaml:"local_time"`  //(default UTC)
 	Compress   bool   `yaml:"compress"`    //default false
+	IsTest     int    `yaml:"is_test"`
 }
 
 // 日志时间格式
