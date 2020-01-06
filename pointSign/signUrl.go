@@ -3,9 +3,9 @@ package pointSign
 import (
 	"crypto/md5"
 	"encoding/hex"
-	"github.com/aws/aws-sdk-go/service/apigateway"
+	//"github.com/aws/aws-sdk-go/service/apigateway"
 	"github.com/guregu/dynamo"
-	"google.golang.org/grpc/grpclog"
+	//"google.golang.org/grpc/grpclog"
 	"strconv"
 	"time"
 )
